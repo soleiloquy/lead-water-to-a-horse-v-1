@@ -10,8 +10,13 @@ config_version=5
 
 [application]
 
-config/name="lead water to a horse v1"
+config/name="lw(ta)h v1"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+Map="*uid://c4jpo728qbdtq"
+Radio="*uid://35l4hwqfjj5d"
 
 [display]
 
