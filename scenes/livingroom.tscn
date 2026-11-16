@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://w02mwnmn1ye3"]
+
+[node name="Node2D" type="Node2D" unique_id=861617608]
+
+[node name="background" type="Sprite2D" parent="." unique_id=890001432]
+
+[node name="desk setup" type="Sprite2D" parent="background" unique_id=1463741165]
+
+[node name="roommate" type="AnimatedSprite2D" parent="background" unique_id=678040537]
+
+[node name="door" type="Sprite2D" parent="background" unique_id=788320625]
+
+[node name="Area2D" type="Area2D" parent="background/door" unique_id=436309778]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="background/door/Area2D" unique_id=662509327]
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=339808751]
+
+[node name="anim" type="Sprite2D" parent="player" unique_id=321233923]
+
+[node name="Area2D" type="Area2D" parent="player" unique_id=1831746110]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player/Area2D" unique_id=1437142846]

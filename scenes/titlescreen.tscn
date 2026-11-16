@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://q45icn8d1tn5"]
+
+[node name="Node2D" type="Node2D" unique_id=1997190061]
+
+[node name="titlescreenbackground" type="Sprite2D" parent="." unique_id=681861583]
